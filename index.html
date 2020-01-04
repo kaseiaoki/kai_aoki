@@ -7,6 +7,18 @@
     <script src="js/uikit-icons.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "kaisei aoki",
+      "description": "This site is a portfolio site of kaisei aoki",
+      "url": "https://kaseiaoki.github.io",
+    "image": [
+       "https://kaseiaoki.github.io/icon.png",
+        ]
+    }
+</script>
 </head>
 <body class="uk-background-muted">
 <nav class="uk-navbar-container" uk-navbar>
@@ -63,8 +75,8 @@
                     </table>
                 </div>
                 <picture>
-                    <source width="240" height="240"  type=image/webp srcset=icon.webp uk-img>
-                    <img  width="240" height="240" src="icon.png" alt="hero image" uk-img>
+                    <source width="240" height="240"  loading="lazy"  type=image/webp srcset=icon.webp uk-img>
+                    <img  width="240" height="240" loading="lazy"  src="icon.png" alt="hero image" uk-img>
                 </picture>
             </div>
         </div>
@@ -95,16 +107,18 @@
         <div class="uk-column-1@s uk-column-1-2@m uk-column-1-2@l">
             <div class="uk-panel">
                 <h2 class="uk-card-title"> Licensed Scrum Master (2018.10.8)</h2>
+                <a class="uk-link-muted" href="https://scruminc.jp/">scruminc.jp</a>
                 <picture class="uk-align-center">
-                    <source type=image/webp srcset=LSM.webp>
-                    <img src="LSM.png"  uk-img>
+                    <source loading="lazy" type=image/webp srcset=LSM.webp>
+                    <img  loading="lazy"  src="LSM.png"  uk-img>
                 </picture>
             </div>
             <div class="uk-panel">
                 <h2 class="uk-card-title">Google Analytics Individual Qualification (2019.12.20)</h2>
+                <a class="uk-link-muted" href="https://skillshop.exceedlms.com/student/path/2949-google-gaiq">skillshop.exceedlms.com</a>
                 <picture class="uk-align-center">
-                    <source type=image/webp srcset=GAIQ.webp>
-                    <img  width="320" height="320" src="GAIQ.png" uk-img>
+                    <source loading="lazy"  type=image/webp srcset=GAIQ.webp>
+                    <img  loading="lazy"  width="320" height="320" src="GAIQ.png" uk-img>
                 </picture>
             </div>
         </div>
