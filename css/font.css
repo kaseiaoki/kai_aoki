@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Tenderness';
+    src: url(font/Tenderness.otf);
+}
+* { font-family: 'Tenderness', sans-serif !important ;}

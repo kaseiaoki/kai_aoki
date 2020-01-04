@@ -1,193 +1,101 @@
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
-    <script src="main.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-<section class="hero is-12-mobile is-info is-bold">
-    <div class="hero-head is-hidden-mobile">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-brand">
-                            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                            </span>
-                </div>
-                <div id="navbarMenuHeroB" class="navbar-menu is-active">
-                    <div class="navbar-end">
-                        <a class="navbar-item is-active" href="https://github.com/kaseiaoki">
-                            GitHub
-                        </a>
-                        <a class="navbar-item" href="https://www.facebook.com/kaisei.aoki">
-                            Facebook
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+            <li>
+                <a class="navbar-item is-active" uk-icon="icon: github" href="https://github.com/kaseiaoki">
+                    GitHub　
+                </a>
+            </li>
+            <li>
+                <a class="navbar-item" uk-icon="icon: facebook" href="https://www.facebook.com/kaisei.aoki">
+                    Facebook　
+                </a>
+            </li>
+        </ul>
+
     </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <div class="title column is-12-mobile is-quater is-herf">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <picture>
-                                <source type=image/webp srcset=alpaca.webp>
-                                <img src="alpca.png" alt="hero image">
-                            </picture>
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <h1 class="title"> Kaisei Aoki</h1>
-                    </div>
+</nav>
+<div class="uk-height-large uk-background-cover uk-light uk-flex"  uk-parallax="viewport: 0.5" uk-parallax="bgy: -200" style="background-image: url('mount.jpg');">
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Kaisei Aoki</h1>
+</div>
+<div class="uk-container uk-container-center">
+        <div class="uk-section">
+            <h2 class="uk-heading-bullet uk-heading-small">Biography</h2>
+            <div class="uk-column-1@s uk-column-1-2@m uk-column-1-2@l">
+                <div class="content is-large">
+                <p class="uk-text-large">Kaisei Aoki</p>
+                    <table class="uk-table uk-table-small uk-table-divider">
+                        <tr>
+                            <th colspan="1"></th>
+                            <th colspan="2"></th>
+                        </tr>
+                        <tr>
+                            <td>Born:</td>
+                            <td>1995.2.7</td>
+                        </tr>
+                        <tr>
+                            <td>Job:</td>
+                            <td>Web Engineer, Scrum Master, Associate Project Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Facebook:</td>
+                            <td><a href="https://www.facebook.com/kaisei.aoki">https://www.facebook.com/kaisei.aoki</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/kaseiaoki">https://github.com/kaseiaoki</a>
+                            </td>
+                        </tr>
+
+                    </table>
                 </div>
+                <picture>
+                    <source width="240" height="240"  type=image/webp srcset=icon.webp uk-img>
+                    <img  width="240" height="240" src="icon.jpg" alt="hero image" uk-img>
+                </picture>
             </div>
         </div>
-    </div>
-</section>
-<main class="has-background-light">
-    <div class="columns">
-        <div class="column is-12-mobile is-8 is-offset-2">
-            <hr>
-            <div class="card article">
-                <div class="card-content">
-                    <label class="label">
-                        <h1 class="title">Biography</h1>
-                    </label>
-                    <hr>
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-128x128">
-                                <picture>
-                                    <source class="is-rounded" type=image/webp srcset=icon.webp>
-                                    <img class="is-rounded" src="icon.jpg" alt="hero image">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-8">Kaisei Aoki</p>
-                            <p class="subtitle is-10">青木開生 (あおき かいせい) </p>
-                            <div class="content is-large">
-                                <table class="table-profile">
-                                    <tr>
-                                        <th colspan="1"></th>
-                                        <th colspan="2"></th>
-                                    </tr>
-                                    <tr>
-                                        <td>Born:</td>
-                                        <td>1995.2.7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Email:</td>
-                                        <td>aoki070207@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Facebook:</td>
-                                        <td><a href="https://www.facebook.com/kaisei.aoki">https://www.facebook.com/kaisei.aoki</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Github:</td>
-                                        <td><a href="https://github.com/kaseiaoki">https://github.com/kaseiaoki</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="uk-section">
+            <h2 class="uk-heading-bullet uk-heading-small">Coding</h2>
+            <ul class="uk-list uk-list-bullet">
+                <li>JavaScript1</li>
+                <li>HTML5/CSS3</li>
+                <li>Wordpress</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+      <h2 class="uk-heading-bullet uk-heading-small">License</h2>
+    <div class="uk-column-1@s uk-column-1@m uk-column-1-2">
+        <div class="uk-panel">
+            <h2 class="uk-card-title"> Licensed Scrum Master (2018.10.8)</h2>
+            <picture class="uk-align-center">
+                <source type=image/webp srcset=LSM.webp>
+                <img src="LSM.png"   alt="hero image" uk-img>
+            </picture>
+        </div>
+        <div class="uk-panel">
+            <h2 class="uk-card-title">Google Analytics Individual Qualification (2019.12.20)</h2>
+            <picture class="uk-align-center">
+                <source type=image/webp srcset=GAIQ.webp>
+                <img  width="320" height="320" src="GAIQ.png" alt="hero image" uk-img>
+            </picture>
         </div>
     </div>
-    <div class="columns has-background-light">
-        <div class="column is-12-mobile is-8 is-offset-2">
-            <div class="tile is-ancestor">
-                <div class="tile is-4 is-vertical is-parent">
-                    <div class="tile is-child box">
-                        <h1 class="title">Coding</h1>
-                        <div class="content is-large">
-                            <table class="table-profile">
-                                <tr>
-                                    <th colspan="1"></th>
-                                    <th colspan="2"></th>
-                                </tr>
-                                <tr>
-                                    <td>JavaScript :
-                                        <p>
-                                            <progress class="progress is-danger" value="50" max="100"></progress>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>HTML5/CSS3 :
-                                        <p>
-                                            <progress  class="progress is-danger" value="55" max="100"></progress>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Wordpress :
-                                        <p>
-                                            <progress class="progress is-danger" value="65" max="100"></progress>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>PHP :
-                                        <p>
-                                            <progress class="progress is-danger" value="60" max="100"></progress>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Rust(hobby):
-                                        <p>
-                                            <progress class="progress is-success" value="46" max="100"></progress>
-                                        </p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="tile is-parent">
-                    <div class="tile is-child box">
-                        <p class="title">License</p>
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <picture>
-                                        <source type=image/webp srcset=LSM.webp>
-                                        <img src="LSM.png" alt="hero image">
-                                    </picture>
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <h2 class="title is-4"> Licensed Scrum Master</h2>
-                                <h3 class="subtitle">(2018.10.8)</h3>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <picture>
-                                        <source type=image/webp srcset=GAIQ.webp>
-                                        <img  src="GAIQ.png" alt="hero image">
-                                    </picture>
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <h2 class="title is-4">Google Analytics Individual Qualification</h2>
-                                <h3 class="subtitle">(2018.5.15)</h3>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
     </div>
 </main>
 </body>
