@@ -2,4 +2,9 @@
     font-family: 'Tenderness';
     src: url(font/Tenderness.otf);
 }
+@font-face {
+    font-family: 'Yasashii';
+    src: url(font/Yasashii-Regular.otf);
+}
 * { font-family: 'Tenderness', sans-serif !important ;}
+.Yasashii { font-family: 'Yasashii', sans-serif !important ;}
