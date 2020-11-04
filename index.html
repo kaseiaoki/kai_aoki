@@ -1,12 +1,11 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/uikit.min.css" />
     <link rel="stylesheet" href="css/font.css" />
     <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit-icons.min.js" async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js" async></script>
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -21,7 +20,7 @@
     </script>
 </head>
 <body>
-<nav class="uk-navbar-container uk-navbar">
+<nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav">
@@ -75,8 +74,8 @@
                 </table>
             </div>
             <picture>
-                <source width="240" height="240"  loading="lazy"  type=image/webp srcset=icon.webp uk-img>
-                <img  width="240" height="240" loading="lazy"  src="icon.png" alt="hero image" uk-img>
+                <source width="240" height="240" type=image/webp srcset=icon.webp uk-img loading="lazy">
+                <img  width="240" height="240" src="icon.png" alt="hero image" uk-img loading="lazy">
             </picture>
         </div>
     </div>
@@ -85,17 +84,16 @@
         <p class="uk-text-large">Coding</p>
         <div class="uk-column-1 uk-padding uk-padding-remove-top">
             <ul class="uk-list uk-list-bullet">
+                <li>SEO</li>
                 <li>JavaScript</li>
                 <ul class="uk-list uk-list-bullet">
                     <li>jQuery</li>
                     <li>node</li>
-                    <li>vue.js</li>
                 </ul>
                 <li>HTML5/CSS3</li>
                 <ul class="uk-list uk-list-bullet">
                     <li>UIkit</li>
                     <li>Bulma</li>
-                    <li>Bootstrap</li>
                     <li>Pure</li>
                 </ul>
                 <li>Wordpress</li>
@@ -111,7 +109,7 @@
                 <a class="uk-link-muted" uk-icon="icon: link" href="https://scruminc.jp/">scruminc.jp</a>
                 <picture class="uk-align-center">
                     <source loading="lazy" type=image/webp srcset=LSM.webp>
-                    <img  loading="lazy"  src="LSM.png"  uk-img>
+                    <img src="LSM.png"  uk-img loading="lazy">
                 </picture>
             </div>
             <div class="uk-panel">
@@ -119,7 +117,7 @@
                 <a class="uk-link-muted" uk-icon="icon: link" href="https://skillshop.exceedlms.com/student/path/2949-google-gaiq">skillshop.exceedlms.com</a>
                 <picture class="uk-align-center">
                     <source loading="lazy"  type=image/webp srcset=GAIQ.webp>
-                    <img  loading="lazy"  width="320" height="320" src="GAIQ.png" uk-img>
+                    <img width="320" height="320" src="GAIQ.png" uk-img loading="lazy">
                 </picture>
             </div>
         </div>
