@@ -1,0 +1,13 @@
+h1 {
+    color:#F4FBFE !important;
+}
+
+nav,body {
+    background-color: #FFFFFB !important;
+}
+
+.nav__fixed {
+    position: sticky;
+    z-index: 2147483647;
+    top: 0;
+}
