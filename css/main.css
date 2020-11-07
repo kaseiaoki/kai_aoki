@@ -72,3 +72,10 @@ body
         transform: translate(0px, 0px) rotateZ(0deg);
     }
 }
+
+.me
+{
+    width: auto;
+    height: 16vw;
+    max-height: 200px;
+}
