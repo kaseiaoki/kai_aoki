@@ -1,46 +1,74 @@
-h1 {
-    color:#545955 !important;
+h1
+{
     font-weight: 500 !important;
+
+    color: #545955 !important;
 }
 
 h2,
 h3,
-p{
-    color: #595455 !important;
+p
+{
     font-weight: 500 !important;
+
+    color: #595455 !important;
 }
 
-nav a {
-    color: #545955 !important
+nav a
+{
+    color: #545955 !important;
 }
 
-a{
-    color:#487696 !important;
+a
+{
+    color: #487696 !important;
 }
 
-nav,body {
-    background-color: #FBFBF6 !important;
+nav,
+body
+{
+    background-color: #fbfbf6 !important;
 }
 
-.white{
-    color: #FBFBF6 !important;
+.white
+{
+    color: #fbfbf6 !important;
 }
 
-.nav__fixed {
+.nav__fixed
+{
     position: sticky;
     z-index: 2147483647;
     top: 0;
 }
 
-.shake-:hover {
+.shake-:hover
+{
     display: inline-block;
+
     animation: it-up .1s  infinite;
 }
 
-@keyframes it-up {
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+@keyframes it-up
+{
+    0%
+    {
+        transform: translate(0px, 0px) rotateZ(0deg);
+    }
+    25%
+    {
+        transform: translate(2px, 2px) rotateZ(1deg);
+    }
+    50%
+    {
+        transform: translate(0px, 2px) rotateZ(0deg);
+    }
+    75%
+    {
+        transform: translate(2px, 0px) rotateZ(-1deg);
+    }
+    100%
+    {
+        transform: translate(0px, 0px) rotateZ(0deg);
+    }
 }
