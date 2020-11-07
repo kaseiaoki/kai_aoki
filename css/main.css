@@ -10,16 +10,20 @@ p{
     font-weight: 500 !important;
 }
 
-a {
+nav a {
     color: #545955 !important
 }
 
-td a{
+a{
     color:#487696 !important;
 }
 
 nav,body {
     background-color: #FBFBF6 !important;
+}
+
+.white{
+    color: #FBFBF6 !important;
 }
 
 .nav__fixed {
