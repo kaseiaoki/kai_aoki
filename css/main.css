@@ -1,19 +1,42 @@
 h1 {
-    color:#F4FBFE !important;
+    color:#545955 !important;
     font-weight: 500 !important;
 }
 
-h2 {
-    color: #3F4551!important;
+h2,
+h3,
+p{
+    color: #595455 !important;
     font-weight: 500 !important;
+}
+
+a {
+    color: #545955 !important
+}
+
+td a{
+    color:#487696 !important;
 }
 
 nav,body {
-    background-color: #FFFFFB !important;
+    background-color: #FBFBF6 !important;
 }
 
 .nav__fixed {
     position: sticky;
     z-index: 2147483647;
     top: 0;
+}
+
+.shake-:hover {
+    display: inline-block;
+    animation: it-up .1s  infinite;
+}
+
+@keyframes it-up {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
 }
