@@ -24,6 +24,12 @@ a
     color: #487696 !important;
 }
 
+body 
+{
+    width: auto !important;
+    height: auto !important;
+}
+
 nav,
 body
 {
